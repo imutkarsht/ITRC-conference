@@ -2,15 +2,15 @@ import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 
 const navItems = {
-  home: '/',
+  home: '#home',
   'special session': '#special-session',
-  committees: '#committees',
+  committee: '#committee',
   speakers: '#speakers',
   submissions: '#submissions',
-  venue: '#venue',
   schedule: '#schedule',
   registration: '#registration',
-  'tech-genesis': '#call-for-paper',
+  'call for paper': '#call-for-paper',
+  themes: '#themes',
   'contact us': '#contact',
 };
 
@@ -18,11 +18,11 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="w-full px-6 py-4 bg-black bg-opacity-80 fixed top-0 left-0 right-0 z-10">
+    <nav className="w-full px-6 py-4 text-white bg-black bg-opacity-80 fixed top-0 left-0 right-0 z-10">
       <div className="flex items-center justify-between">
         <div className='flex gap-4 items-center justify-center'>
             <img src="./mmmutlogo.png" alt="MMMUT ITRC" className="h-10" />
-            <h1 className='text-2xl font-semibold'>MMMUT ITRC</h1>
+            <h1 className='text-2xl font-semibold'>MMMUT ITCA</h1>
         </div>
         <ul className="hidden md:flex space-x-4 text-lg">
           {Object.entries(navItems).map(([label, path]) => (
