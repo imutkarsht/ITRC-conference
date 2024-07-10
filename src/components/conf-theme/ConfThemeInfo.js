@@ -36,7 +36,7 @@ const ConferenceInfo = () => {
               <h3 className="text-xl font-bold mb-4 text-orange-500">Topics in {selectedCategory}</h3>
               <ul className="list-disc pl-5">
                 {category.items.map((item) => (
-                  <li key={item} className="text-white">
+                  <li key={item} className="text-black dark:text-white">
                     {item}
                   </li>
                 ))}
