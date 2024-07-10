@@ -2,9 +2,9 @@ import React from 'react'
 
 const ContactUs = () => {
   return (
-    <div id='contact' className='flex container md:gap-4 gap-0 flex-wrap md:flex-nowrap items-center bg-gray-950 text-white md:justify-center'>
+    <div id='contact' className='flex container md:gap-4 gap-0 flex-wrap md:flex-nowrap items-center bg-gray-50 dark:bg-gray-950 dark:text-white text-black md:justify-center'>
         <div className='flex flex-col m-4'>
-            <h2 className='text-xl font-semibold uppercase text-white pt-4 pb-8 underline underline-offset-8 decoration-orange-200'>Useful Links</h2>
+            <h2 className='text-xl font-semibold uppercase text-black dark:text-white pt-4 pb-8 underline underline-offset-8 decoration-orange-200'>Useful Links</h2>
             <ul>
                 <li>Link1</li>
                 <li>Link2</li>
@@ -13,7 +13,7 @@ const ContactUs = () => {
             </ul>
         </div>
         <div className='container flex flex-col m-4'>
-            <h2 className='text-xl font-semibold uppercase text-white pt-4 pb-8 underline underline-offset-8 decoration-orange-200'>Contact Us</h2>
+            <h2 className='text-xl font-semibold uppercase text-black dark:text-white pt-4 pb-8 underline underline-offset-8 decoration-orange-200'>Contact Us</h2>
             <ul>
                 <li>1. CONFERENCE CHAIR & CONVENOR</li>
                 <li>2. FOR PUBLICATION RELATED QUERY</li>

@@ -5,10 +5,10 @@ import Button from '../UI/Button';
 const AuthorsFee = () => {
   
   return (
-    <div className="container bg-slate-800 mx-auto px-8 py-2">
-      <h2 className="text-2xl font-bold mb-3 text-white text-center">AUTHOR'S FEE</h2>
+    <div className="container dark:bg-slate-800 text-black dark:text-white bg-slate-200 mx-auto px-8 py-2">
+      <h2 className="text-2xl font-bold mb-3 dark:text-white text-gray-800 text-center">AUTHOR'S FEE</h2>
       <div className="overflow-x-auto flex flex-col items-center justify-center">
-        <table className="min-w-full bg-gray-700 text-white px-10 shadow-md rounded-lg overflow-hidden">
+        <table className="min-w-full dark:bg-gray-700 bg-slate-300 dark:text-white text-black px-10 shadow-md rounded-lg overflow-hidden">
           <thead className="bg-orange-200 text-white">
             <tr>
               <th className="py-3 px-6 text-left">Category</th>

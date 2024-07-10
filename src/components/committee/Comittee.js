@@ -4,7 +4,7 @@ import HeadText from '../UI/HeadText'
 
 const Comittee = () => {
   return (
-    <div id='committee' className='bg-slate-900 flex flex-col items-center justify-center'>
+    <div id='committee' className='bg-slate-200 dark:text-white text-black dark:bg-slate-900 flex flex-col items-center justify-center'>
         <HeadText title="Committee" />
         <MembersList />
     </div>

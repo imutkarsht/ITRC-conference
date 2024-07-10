@@ -1,10 +1,11 @@
 import React from 'react'
 import AuthorsFee from './AuthorsFee'
+import HeadText from '../UI/HeadText'
 
 const Registration = () => {
   return (
-    <div  className='bg-slate-900 flex flex-col items-center justify-center' id="registration">
-        <h2 className='text-3xl font-semibold uppercase text-white pt-4 pb-8 underline underline-offset-8 decoration-orange-200'>Registration</h2>
+    <div  className='dark:bg-slate-900 bg-slate-100 flex flex-col items-center justify-center' id="registration">
+        <HeadText title="Registration" />
         <AuthorsFee />
         
     </div>

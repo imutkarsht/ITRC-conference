@@ -19,12 +19,12 @@ const MembersList = () => {
     : members.filter(member => member.committee === selectedCommittee);
 
   return (
-    <div className="p-4 bg-slate-800 m-5 rounded-md">
+    <div className="p-4 bg-slate-100 dark:text-white text-black dark:bg-slate-800 m-5 rounded-md">
       <div className="flex justify-center mb-4">
         <select 
           value={selectedCommittee} 
           onChange={handleCommitteeChange} 
-          className="px-4 py-2 border rounded-md"
+          className="px-4 py-2 border rounded-md dark:bg-slate-700 bg-slate-150"
         >
           {committeeOptions.map(committee => (
             <option key={committee} value={committee}>{committee}</option>
