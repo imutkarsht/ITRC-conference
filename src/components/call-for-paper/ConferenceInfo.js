@@ -2,8 +2,8 @@ import React from 'react';
 
 const ConferenceInfo = () => {
   return (
-    <div className="container mx-auto px-4 py-2 bg-black text-white">
-      <div className="bg-black shadow-md rounded-lg p-6">
+    <div className="container mx-auto px-4 py-2 bg-slate-900 text-white">
+      <div className="bg-slate-800 shadow-md rounded-lg p-6">
         <p className="text-gray-300 mb-4">
           <span className="font-bold text-orange-500">&lt;CONFERENCE NAME&gt;</span> is inviting original, previously unpublished, and high-quality research papers addressing research challenges and advances in the topics mentioned below. <span className="font-bold text-orange-500">&lt;CONFERENCE NAME&gt;</span> takes plagiarism very seriously and regards plagiarism as professional misconduct. Papers will be screened for plagiarism and, when identified, the paper will be rejected. In addition, all authors of the paper will be denied the conference, and other papers by these author(s) will also be rejected.
         </p>

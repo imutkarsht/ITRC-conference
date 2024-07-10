@@ -9,13 +9,13 @@ const Member = ({ name, position, place, committee, imageSrc }) => {
           className="w-full h-full object-cover" 
           src={imageSrc} 
         />
-        <div className="absolute top-0 left-0 bg-slate-900 text-white text-xs font-bold py-1 px-2 rounded">
+        <div className="absolute top-0 left-0 bg-orange-500 text-white text-xs font-semibold py-1 px-2 rounded">
           {committee}
         </div>
       </div>
-      <div className="flex flex-col items-center gap-1 py-4 bg-slate-800 px-6 w-full">
-        <h3 className="text-xl font-semibold text-gray-200">{name}</h3>
-        <p className="text-sm text-gray-300">{position}</p>
+      <div className="flex flex-col items-center gap-1 py-4 bg-gray-700 px-6 w-full">
+        <h3 className="text-xl font-semibold text-white">{name}</h3>
+        <p className="text-sm text-gray-400">{position}</p>
         <p className="text-sm text-gray-300">{place}</p>
       </div>
     </div>

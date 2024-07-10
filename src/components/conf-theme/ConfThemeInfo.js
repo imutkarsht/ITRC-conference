@@ -11,14 +11,14 @@ const ConferenceInfo = () => {
     const category = topics.find((t) => t.category === selectedCategory);
   
     return (
-      <div className="container mx-auto px-4 py-8 bg-black text-white">
+      <div className="container mx-auto px-4 py-8 bg-slate-900 text-white">
         
-        <div className="bg-gray-900 shadow-md rounded-lg p-6">
+        <div className="bg-slate-800 shadow-md rounded-lg p-6">
           <div className="mb-4">
             <label className="block mb-2 font-bold text-orange-500" htmlFor="category">Select Category</label>
             <select
               id="category"
-              className="w-full px-3 py-2 bg-gray-800 border border-gray-700 rounded text-white"
+              className="w-full px-3 py-2 bg-slate-600 border border-gray-700 rounded text-white"
               onChange={handleCategoryChange}
               value={selectedCategory}
             >
