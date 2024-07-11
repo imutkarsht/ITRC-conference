@@ -10,7 +10,7 @@ const Navbar = () => {
     <nav className="w-full px-6 py-4 text-black bg-slate-100 dark:text-white dark:bg-black  bg-opacity-80 dark:bg-opacity-90 fixed top-0 left-0 right-0 z-10">
       <div className="flex items-center justify-between">
         <div className='flex gap-4 items-center justify-center'>
-            <img src="./mmmutlogo.png" alt="MMMUT ITRC" className="h-10" />
+            <img src="./images/mmmutlogo.png" alt="MMMUT ITRC" className="h-10" />
             <h1 className='text-2xl font-semibold'>MMMUT ITCA</h1>
         </div>
 
